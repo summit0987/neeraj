@@ -1,0 +1,27 @@
+.form-container {
+  background: #fff;
+  padding: 2rem;
+  margin: 20px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.form-container fieldset {
+  padding: 1rem;
+  margin: 1.5rem auto;
+}
+
+.form-container fieldset legend {
+  width: auto;
+  padding: 0.5rem;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.form-container fieldset .new-input {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px;
+}

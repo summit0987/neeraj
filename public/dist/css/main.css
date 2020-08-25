@@ -1,0 +1,129 @@
+.h100 {
+  height: 100%;
+}
+
+.log-bg {
+  background: -webkit-gradient(linear, left bottom, right top, from(#1f5139), to(#173c70));
+  background: linear-gradient(to top right, #1f5139, #173c70);
+  height: 100vh;
+  position: relative;
+}
+
+.log-box {
+  height: auto;
+  width: 320px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.log-box .back-btn {
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.log-box .back-btn .fa {
+  height: auto;
+  color: #fff;
+}
+
+.log-box form {
+  height: auto;
+  float: left;
+  width: 100%;
+}
+
+.log-box .logo-holder {
+  height: auto;
+  float: left;
+}
+
+.log-box .forget-link {
+  height: 40px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  float: left;
+}
+
+.log-box .from-container {
+  height: auto;
+  width: 100%;
+  float: left;
+}
+
+.log-box .from-container .input-feilds {
+  height: auto;
+  float: left;
+  width: 100%;
+}
+
+.log-box .from-container .input-feilds ::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.log-box .from-container .input-feilds :-ms-input-placeholder {
+  color: #fff;
+}
+
+.log-box .from-container .input-feilds ::-ms-input-placeholder {
+  color: #fff;
+}
+
+.log-box .from-container .input-feilds ::placeholder {
+  color: #fff;
+}
+
+.log-box .from-container .input-feilds input {
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background: transparent;
+  padding: 15px;
+  outline: none;
+  color: #FFF;
+}
+
+.log-box .from-container .input-feilds .custom-cb {
+  height: 20px;
+  width: 20px;
+  float: left;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  background: transparent;
+  margin-right: 15px;
+}
+
+.log-box .from-container .input-feilds .custom-cb-label {
+  height: auto;
+  float: left;
+  color: #fff;
+}
+
+.log-box .from-container .input-feilds .btn-white {
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
